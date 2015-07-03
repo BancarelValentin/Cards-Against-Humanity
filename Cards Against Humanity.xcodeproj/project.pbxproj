@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8BCEE261B47124700845BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE251B47124700845BB5 /* main.m */; };
+		E8BCEE291B47124700845BB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE281B47124700845BB5 /* AppDelegate.m */; };
+		E8BCEE2C1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE2A1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld */; };
+		E8BCEE2F1B47124700845BB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE2E1B47124700845BB5 /* ViewController.m */; };
+		E8BCEE321B47124700845BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BCEE301B47124700845BB5 /* Main.storyboard */; };
+		E8BCEE341B47124700845BB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BCEE331B47124700845BB5 /* Images.xcassets */; };
+		E8BCEE371B47124700845BB5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8BCEE351B47124700845BB5 /* LaunchScreen.xib */; };
+		E8BCEE431B47124700845BB5 /* Cards_Against_HumanityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE421B47124700845BB5 /* Cards_Against_HumanityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8BCEE3D1B47124700845BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8BCEE181B47124700845BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8BCEE1F1B47124700845BB5;
+			remoteInfo = "Cards Against Humanity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8BCEE201B47124700845BB5 /* Cards Against Humanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cards Against Humanity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BCEE241B47124700845BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BCEE251B47124700845BB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8BCEE271B47124700845BB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8BCEE281B47124700845BB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8BCEE2B1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cards_Against_Humanity.xcdatamodel; sourceTree = "<group>"; };
+		E8BCEE2D1B47124700845BB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8BCEE2E1B47124700845BB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8BCEE311B47124700845BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8BCEE331B47124700845BB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8BCEE361B47124700845BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E8BCEE3C1B47124700845BB5 /* Cards Against HumanityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cards Against HumanityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BCEE411B47124700845BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8BCEE421B47124700845BB5 /* Cards_Against_HumanityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cards_Against_HumanityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8BCEE1D1B47124700845BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BCEE391B47124700845BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8BCEE171B47124700845BB5 = {
+			isa = PBXGroup;
+			children = (
+				E8BCEE221B47124700845BB5 /* Cards Against Humanity */,
+				E8BCEE3F1B47124700845BB5 /* Cards Against HumanityTests */,
+				E8BCEE211B47124700845BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8BCEE211B47124700845BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCEE201B47124700845BB5 /* Cards Against Humanity.app */,
+				E8BCEE3C1B47124700845BB5 /* Cards Against HumanityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8BCEE221B47124700845BB5 /* Cards Against Humanity */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCEE271B47124700845BB5 /* AppDelegate.h */,
+				E8BCEE281B47124700845BB5 /* AppDelegate.m */,
+				E8BCEE2D1B47124700845BB5 /* ViewController.h */,
+				E8BCEE2E1B47124700845BB5 /* ViewController.m */,
+				E8BCEE301B47124700845BB5 /* Main.storyboard */,
+				E8BCEE331B47124700845BB5 /* Images.xcassets */,
+				E8BCEE351B47124700845BB5 /* LaunchScreen.xib */,
+				E8BCEE2A1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld */,
+				E8BCEE231B47124700845BB5 /* Supporting Files */,
+			);
+			path = "Cards Against Humanity";
+			sourceTree = "<group>";
+		};
+		E8BCEE231B47124700845BB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCEE241B47124700845BB5 /* Info.plist */,
+				E8BCEE251B47124700845BB5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8BCEE3F1B47124700845BB5 /* Cards Against HumanityTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCEE421B47124700845BB5 /* Cards_Against_HumanityTests.m */,
+				E8BCEE401B47124700845BB5 /* Supporting Files */,
+			);
+			path = "Cards Against HumanityTests";
+			sourceTree = "<group>";
+		};
+		E8BCEE401B47124700845BB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCEE411B47124700845BB5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8BCEE1F1B47124700845BB5 /* Cards Against Humanity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8BCEE461B47124700845BB5 /* Build configuration list for PBXNativeTarget "Cards Against Humanity" */;
+			buildPhases = (
+				E8BCEE1C1B47124700845BB5 /* Sources */,
+				E8BCEE1D1B47124700845BB5 /* Frameworks */,
+				E8BCEE1E1B47124700845BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cards Against Humanity";
+			productName = "Cards Against Humanity";
+			productReference = E8BCEE201B47124700845BB5 /* Cards Against Humanity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8BCEE3B1B47124700845BB5 /* Cards Against HumanityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8BCEE491B47124700845BB5 /* Build configuration list for PBXNativeTarget "Cards Against HumanityTests" */;
+			buildPhases = (
+				E8BCEE381B47124700845BB5 /* Sources */,
+				E8BCEE391B47124700845BB5 /* Frameworks */,
+				E8BCEE3A1B47124700845BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8BCEE3E1B47124700845BB5 /* PBXTargetDependency */,
+			);
+			name = "Cards Against HumanityTests";
+			productName = "Cards Against HumanityTests";
+			productReference = E8BCEE3C1B47124700845BB5 /* Cards Against HumanityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8BCEE181B47124700845BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "bancarel valentin";
+				TargetAttributes = {
+					E8BCEE1F1B47124700845BB5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E8BCEE3B1B47124700845BB5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E8BCEE1F1B47124700845BB5;
+					};
+				};
+			};
+			buildConfigurationList = E8BCEE1B1B47124700845BB5 /* Build configuration list for PBXProject "Cards Against Humanity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8BCEE171B47124700845BB5;
+			productRefGroup = E8BCEE211B47124700845BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8BCEE1F1B47124700845BB5 /* Cards Against Humanity */,
+				E8BCEE3B1B47124700845BB5 /* Cards Against HumanityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8BCEE1E1B47124700845BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCEE321B47124700845BB5 /* Main.storyboard in Resources */,
+				E8BCEE371B47124700845BB5 /* LaunchScreen.xib in Resources */,
+				E8BCEE341B47124700845BB5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BCEE3A1B47124700845BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8BCEE1C1B47124700845BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCEE2C1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld in Sources */,
+				E8BCEE291B47124700845BB5 /* AppDelegate.m in Sources */,
+				E8BCEE2F1B47124700845BB5 /* ViewController.m in Sources */,
+				E8BCEE261B47124700845BB5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BCEE381B47124700845BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8BCEE431B47124700845BB5 /* Cards_Against_HumanityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8BCEE3E1B47124700845BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8BCEE1F1B47124700845BB5 /* Cards Against Humanity */;
+			targetProxy = E8BCEE3D1B47124700845BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8BCEE301B47124700845BB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8BCEE311B47124700845BB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8BCEE351B47124700845BB5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8BCEE361B47124700845BB5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8BCEE441B47124700845BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8BCEE451B47124700845BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8BCEE471B47124700845BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cards Against Humanity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8BCEE481B47124700845BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cards Against Humanity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8BCEE4A1B47124700845BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cards Against HumanityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards Against Humanity.app/Cards Against Humanity";
+			};
+			name = Debug;
+		};
+		E8BCEE4B1B47124700845BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cards Against HumanityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards Against Humanity.app/Cards Against Humanity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8BCEE1B1B47124700845BB5 /* Build configuration list for PBXProject "Cards Against Humanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BCEE441B47124700845BB5 /* Debug */,
+				E8BCEE451B47124700845BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8BCEE461B47124700845BB5 /* Build configuration list for PBXNativeTarget "Cards Against Humanity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BCEE471B47124700845BB5 /* Debug */,
+				E8BCEE481B47124700845BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8BCEE491B47124700845BB5 /* Build configuration list for PBXNativeTarget "Cards Against HumanityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8BCEE4A1B47124700845BB5 /* Debug */,
+				E8BCEE4B1B47124700845BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8BCEE2A1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8BCEE2B1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodel */,
+			);
+			currentVersion = E8BCEE2B1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodel */;
+			path = Cards_Against_Humanity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8BCEE181B47124700845BB5 /* Project object */;
+}
