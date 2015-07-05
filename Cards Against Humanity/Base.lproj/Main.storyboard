@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +15,56 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fzZ-RZ-1o1" customClass="BlackCardView">
+                                <rect key="frame" x="132" y="38" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nU6-A8-XsM" customClass="BlackCardView">
+                                <rect key="frame" x="229" y="38" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B1e-dP-vtu" customClass="BlackCardView">
+                                <rect key="frame" x="327" y="196" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0td-GI-AbC" customClass="BlackCardView">
+                                <rect key="frame" x="425" y="196" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wr5-hz-a2d" customClass="BlackCardView">
+                                <rect key="frame" x="523" y="196" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tJZ-AG-qQh" customClass="BlackCardView">
+                                <rect key="frame" x="327" y="38" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zJI-1O-3aL" customClass="BlackCardView">
+                                <rect key="frame" x="523" y="38" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pTb-ev-9VL" customClass="BlackCardView">
+                                <rect key="frame" x="131" y="196" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F4I-pk-q4U" customClass="BlackCardView">
+                                <rect key="frame" x="229" y="196" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h68-UR-YLe" customClass="WhiteCardView">
+                                <rect key="frame" x="16" y="117" width="90" height="130"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ncJ-SC-e5O" customClass="BlackCardView">
+                                <rect key="frame" x="425" y="38" width="90" height="130"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="blackCard1" destination="fzZ-RZ-1o1" id="3fw-kS-Jlc"/>
+                        <outlet property="blackCard10" destination="Wr5-hz-a2d" id="137-TQ-pQw"/>
+                        <outlet property="blackCard2" destination="nU6-A8-XsM" id="Pey-eO-l7q"/>
+                        <outlet property="blackCard3" destination="tJZ-AG-qQh" id="pmD-j6-806"/>
+                        <outlet property="blackCard4" destination="ncJ-SC-e5O" id="rgI-E4-x29"/>
+                        <outlet property="blackCard5" destination="zJI-1O-3aL" id="7LL-GK-are"/>
+                        <outlet property="blackCard6" destination="pTb-ev-9VL" id="9U1-9v-KUs"/>
+                        <outlet property="blackCard7" destination="F4I-pk-q4U" id="E69-dl-YBN"/>
+                        <outlet property="blackCard8" destination="B1e-dP-vtu" id="Rab-cL-Lxv"/>
+                        <outlet property="blackCard9" destination="0td-GI-AbC" id="2z3-BY-5ae"/>
+                        <outlet property="whiteCard" destination="h68-UR-YLe" id="FgF-ds-I6C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
