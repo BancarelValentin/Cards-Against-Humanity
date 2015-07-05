@@ -10,12 +10,8 @@
 
 @implementation BlackCard
 
-
--(id)initFromText:(NSString *)text andNdOfWhiteCard:(NSInteger)nb{
-    self = [super initFromText:text];
-    if (self){
-        self.nbOfWhiteCardsNeeded = nb;
-    }
-    return self;
+-(id)initFromText:(NSString *)text{
+    return [super initFromText:text];
 }
+
 @end

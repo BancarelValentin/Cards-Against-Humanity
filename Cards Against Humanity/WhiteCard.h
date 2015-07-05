@@ -10,5 +10,8 @@
 
 @interface WhiteCard : Card
 
--(id)initFromText:(NSString *)text;
+@property NSInteger nbOfBlackCardsNeeded;
+
+-(id)initFromText:(NSString *)text andNdOfBlackCard:(NSInteger)nb;
+
 @end
