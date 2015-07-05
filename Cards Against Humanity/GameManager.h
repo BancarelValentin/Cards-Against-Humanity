@@ -15,5 +15,6 @@
 @property NSMutableArray* blackCards;
 @property NSMutableArray* whiteCards;
 
-
+-(WhiteCard*)drawAWhiteCard;
+-(NSArray*)drawBlackCards;
 @end

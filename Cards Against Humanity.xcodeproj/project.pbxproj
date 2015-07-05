@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E844FBA51B49A6E50008CF9D /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E844FBA41B49A6E50008CF9D /* CardView.m */; };
+		E844FBA81B49A7DD0008CF9D /* WhiteCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E844FBA71B49A7DD0008CF9D /* WhiteCardView.m */; };
+		E844FBAB1B49A7EA0008CF9D /* BlackCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E844FBAA1B49A7EA0008CF9D /* BlackCardView.m */; };
 		E8BCEE261B47124700845BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE251B47124700845BB5 /* main.m */; };
 		E8BCEE291B47124700845BB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE281B47124700845BB5 /* AppDelegate.m */; };
 		E8BCEE2C1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE2A1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld */; };
@@ -19,7 +22,7 @@
 		E8BCEE511B47127E00845BB5 /* BlackCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE501B47127E00845BB5 /* BlackCard.m */; };
 		E8BCEE541B47128A00845BB5 /* WhiteCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE531B47128A00845BB5 /* WhiteCard.m */; };
 		E8BCEE571B4713C600845BB5 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE561B4713C600845BB5 /* GameManager.m */; };
-		E8BCEE5A1B47148500845BB5 /* CardsLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE591B47148500845BB5 /* CardsLoader.m */; };
+		E8BCEE5A1B47148500845BB5 /* HardLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE591B47148500845BB5 /* HardLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E844FB9C1B4997690008CF9D /* Loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
+		E844FBA31B49A6E50008CF9D /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		E844FBA41B49A6E50008CF9D /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		E844FBA61B49A7DD0008CF9D /* WhiteCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteCardView.h; sourceTree = "<group>"; };
+		E844FBA71B49A7DD0008CF9D /* WhiteCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteCardView.m; sourceTree = "<group>"; };
+		E844FBA91B49A7EA0008CF9D /* BlackCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackCardView.h; sourceTree = "<group>"; };
+		E844FBAA1B49A7EA0008CF9D /* BlackCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackCardView.m; sourceTree = "<group>"; };
 		E8BCEE201B47124700845BB5 /* Cards Against Humanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cards Against Humanity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BCEE241B47124700845BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8BCEE251B47124700845BB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,8 +65,8 @@
 		E8BCEE531B47128A00845BB5 /* WhiteCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteCard.m; sourceTree = "<group>"; };
 		E8BCEE551B4713C600845BB5 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
 		E8BCEE561B4713C600845BB5 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
-		E8BCEE581B47148500845BB5 /* CardsLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsLoader.h; sourceTree = "<group>"; };
-		E8BCEE591B47148500845BB5 /* CardsLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsLoader.m; sourceTree = "<group>"; };
+		E8BCEE581B47148500845BB5 /* HardLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardLoader.h; sourceTree = "<group>"; };
+		E8BCEE591B47148500845BB5 /* HardLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E844FBAC1B49A7F20008CF9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E844FBA31B49A6E50008CF9D /* CardView.h */,
+				E844FBA41B49A6E50008CF9D /* CardView.m */,
+				E844FBA61B49A7DD0008CF9D /* WhiteCardView.h */,
+				E844FBA71B49A7DD0008CF9D /* WhiteCardView.m */,
+				E844FBA91B49A7EA0008CF9D /* BlackCardView.h */,
+				E844FBAA1B49A7EA0008CF9D /* BlackCardView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E844FBAD1B49A7F90008CF9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCEE4C1B47126600845BB5 /* Card.h */,
+				E8BCEE4D1B47126600845BB5 /* Card.m */,
+				E8BCEE4F1B47127E00845BB5 /* BlackCard.h */,
+				E8BCEE501B47127E00845BB5 /* BlackCard.m */,
+				E8BCEE521B47128A00845BB5 /* WhiteCard.h */,
+				E8BCEE531B47128A00845BB5 /* WhiteCard.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E844FBAE1B49A8180008CF9D /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+				E8BCEE581B47148500845BB5 /* HardLoader.h */,
+				E8BCEE591B47148500845BB5 /* HardLoader.m */,
+				E844FB9C1B4997690008CF9D /* Loader.h */,
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
 		E8BCEE171B47124700845BB5 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +144,9 @@
 		E8BCEE221B47124700845BB5 /* Cards Against Humanity */ = {
 			isa = PBXGroup;
 			children = (
+				E844FBAE1B49A8180008CF9D /* DataController */,
+				E844FBAD1B49A7F90008CF9D /* Model */,
+				E844FBAC1B49A7F20008CF9D /* View */,
 				E8BCEE271B47124700845BB5 /* AppDelegate.h */,
 				E8BCEE281B47124700845BB5 /* AppDelegate.m */,
 				E8BCEE2D1B47124700845BB5 /* ViewController.h */,
@@ -107,16 +156,8 @@
 				E8BCEE351B47124700845BB5 /* LaunchScreen.xib */,
 				E8BCEE2A1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld */,
 				E8BCEE231B47124700845BB5 /* Supporting Files */,
-				E8BCEE4C1B47126600845BB5 /* Card.h */,
-				E8BCEE4D1B47126600845BB5 /* Card.m */,
-				E8BCEE4F1B47127E00845BB5 /* BlackCard.h */,
-				E8BCEE501B47127E00845BB5 /* BlackCard.m */,
-				E8BCEE521B47128A00845BB5 /* WhiteCard.h */,
-				E8BCEE531B47128A00845BB5 /* WhiteCard.m */,
 				E8BCEE551B4713C600845BB5 /* GameManager.h */,
 				E8BCEE561B4713C600845BB5 /* GameManager.m */,
-				E8BCEE581B47148500845BB5 /* CardsLoader.h */,
-				E8BCEE591B47148500845BB5 /* CardsLoader.m */,
 			);
 			path = "Cards Against Humanity";
 			sourceTree = "<group>";
@@ -247,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E844FBAB1B49A7EA0008CF9D /* BlackCardView.m in Sources */,
 				E8BCEE4E1B47126600845BB5 /* Card.m in Sources */,
+				E844FBA81B49A7DD0008CF9D /* WhiteCardView.m in Sources */,
 				E8BCEE2C1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld in Sources */,
-				E8BCEE5A1B47148500845BB5 /* CardsLoader.m in Sources */,
+				E844FBA51B49A6E50008CF9D /* CardView.m in Sources */,
+				E8BCEE5A1B47148500845BB5 /* HardLoader.m in Sources */,
 				E8BCEE291B47124700845BB5 /* AppDelegate.m in Sources */,
 				E8BCEE2F1B47124700845BB5 /* ViewController.m in Sources */,
 				E8BCEE261B47124700845BB5 /* main.m in Sources */,
@@ -454,6 +498,7 @@
 				E8BCEE481B47124700845BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8BCEE491B47124700845BB5 /* Build configuration list for PBXNativeTarget "Cards Against HumanityTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +507,7 @@
 				E8BCEE4B1B47124700845BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

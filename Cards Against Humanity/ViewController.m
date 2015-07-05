@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GameManager.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+//    GameManager* manager = [[GameManager alloc]init];
+//    NSArray* blackCards = [manager drawBlackCards];
+//    WhiteCard* whiteCard = [manager drawAWhiteCard];
+    
 }
 
 - (void)didReceiveMemoryWarning {

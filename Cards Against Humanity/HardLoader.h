@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "WhiteCard.h"
 #import "BlackCard.h"
+#import "Loader.h"
 
-@interface CardsLoader : NSObject
+@interface HardLoader : NSObject <Loader>
 
 +(NSArray*)getWhiteCards;
 +(NSArray*)getBlackCards;

@@ -7,7 +7,7 @@
 //
 
 #import "GameManager.h"
-#import "CardsLoader.h"
+#import "HardLoader.h"
 
 @implementation GameManager
 
@@ -15,9 +15,27 @@
 -(id)init{
     self = [super init];
     if (self){
-        self.blackCards= [[NSMutableArray alloc]initWithArray:[CardsLoader getBlackCards]];
-        self.whiteCards= [[NSMutableArray alloc]initWithArray:[CardsLoader getWhiteCards]];
+        self.blackCards= [[NSMutableArray alloc]initWithArray:[HardLoader getBlackCards]];
+        self.whiteCards= [[NSMutableArray alloc]initWithArray:[HardLoader getWhiteCards]];
     }
     return self;
+}
+
+-(WhiteCard*)drawAWhiteCard{
+    return [self.whiteCards objectAtIndex:3];
+}
+
+-(NSArray*)drawBlackCards{
+    return[[NSMutableArray alloc]initWithObjects:
+           [self.blackCards objectAtIndex:0],
+           [self.blackCards objectAtIndex:1],
+           [self.blackCards objectAtIndex:2],
+           [self.blackCards objectAtIndex:3],
+           [self.blackCards objectAtIndex:4],
+           [self.blackCards objectAtIndex:5],
+           [self.blackCards objectAtIndex:6],
+           [self.blackCards objectAtIndex:7],
+           [self.blackCards objectAtIndex:8],
+           [self.blackCards objectAtIndex:9], nil];
 }
 @end
