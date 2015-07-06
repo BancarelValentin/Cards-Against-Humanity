@@ -10,19 +10,13 @@
 
 @implementation WhiteCardView
 
-IB_DESIGNABLE
 - (void)drawRect:(CGRect)rect {
-    self.layer.cornerRadius=5.0;
-    self.backgroundColor = self.primaryColor;
-}
-
--(id)init{
-    self = [super init];
-    if (self) {
-        self.primaryColor= [UIColor whiteColor];
-        self.secondaryColor= [UIColor blackColor];
-    }
-    return self;
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGRect myFrame = self.bounds;
+    CGContextSetLineWidth(context, 1);
+    CGRectInset(myFrame, 5, 5);
+    [self.secondaryColor set];
+    UIRectFrame(myFrame);
 }
 
 -(id)initWithCoder:(NSCoder *)aDecoder{
@@ -30,16 +24,7 @@ IB_DESIGNABLE
     if (self) {
         self.primaryColor= [UIColor whiteColor];
         self.secondaryColor= [UIColor blackColor];
-    }
-    return self;
-}
-
--(id)initWithFrame:(CGRect)frame{
-    
-    self = [super initWithFrame:frame];
-    if (self) {
-        self.primaryColor= [UIColor whiteColor];
-        self.secondaryColor= [UIColor blackColor];
+        [super customDrawUI];
     }
     return self;
 }

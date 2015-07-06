@@ -8,6 +8,7 @@
 
 #import "CardView.h"
 
+IB_DESIGNABLE
 @interface WhiteCardView : CardView
 
 @end

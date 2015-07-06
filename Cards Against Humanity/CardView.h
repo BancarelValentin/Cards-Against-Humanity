@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface CardView : UIView
 
-@property (nonatomic) UIColor* IBInspectable secondaryColor;
-@property (nonatomic) UIColor* IBInspectable primaryColor;
+@property (nonatomic) UIColor* primaryColor;
+@property (nonatomic) UIColor* secondaryColor;
 @property(nonatomic) UILabel* txtLabel;
+
+
+-(void)customDrawUI;
+-(void)setData;
 
 @end

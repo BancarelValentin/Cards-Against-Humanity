@@ -10,6 +10,7 @@
 		E844FBA51B49A6E50008CF9D /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E844FBA41B49A6E50008CF9D /* CardView.m */; };
 		E844FBA81B49A7DD0008CF9D /* WhiteCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E844FBA71B49A7DD0008CF9D /* WhiteCardView.m */; };
 		E844FBAB1B49A7EA0008CF9D /* BlackCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E844FBAA1B49A7EA0008CF9D /* BlackCardView.m */; };
+		E8A42DCF1B4A820B002618F9 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A42DCE1B4A820B002618F9 /* TestView.m */; };
 		E8BCEE261B47124700845BB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE251B47124700845BB5 /* main.m */; };
 		E8BCEE291B47124700845BB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE281B47124700845BB5 /* AppDelegate.m */; };
 		E8BCEE2C1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8BCEE2A1B47124700845BB5 /* Cards_Against_Humanity.xcdatamodeld */; };
@@ -43,6 +44,8 @@
 		E844FBA71B49A7DD0008CF9D /* WhiteCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteCardView.m; sourceTree = "<group>"; };
 		E844FBA91B49A7EA0008CF9D /* BlackCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackCardView.h; sourceTree = "<group>"; };
 		E844FBAA1B49A7EA0008CF9D /* BlackCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackCardView.m; sourceTree = "<group>"; };
+		E8A42DCD1B4A820B002618F9 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		E8A42DCE1B4A820B002618F9 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		E8BCEE201B47124700845BB5 /* Cards Against Humanity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cards Against Humanity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BCEE241B47124700845BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8BCEE251B47124700845BB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				E844FBA71B49A7DD0008CF9D /* WhiteCardView.m */,
 				E844FBA91B49A7EA0008CF9D /* BlackCardView.h */,
 				E844FBAA1B49A7EA0008CF9D /* BlackCardView.m */,
+				E8A42DCD1B4A820B002618F9 /* TestView.h */,
+				E8A42DCE1B4A820B002618F9 /* TestView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 				E844FBA51B49A6E50008CF9D /* CardView.m in Sources */,
 				E8BCEE5A1B47148500845BB5 /* HardLoader.m in Sources */,
 				E8BCEE291B47124700845BB5 /* AppDelegate.m in Sources */,
+				E8A42DCF1B4A820B002618F9 /* TestView.m in Sources */,
 				E8BCEE2F1B47124700845BB5 /* ViewController.m in Sources */,
 				E8BCEE261B47124700845BB5 /* main.m in Sources */,
 				E8BCEE571B4713C600845BB5 /* GameManager.m in Sources */,

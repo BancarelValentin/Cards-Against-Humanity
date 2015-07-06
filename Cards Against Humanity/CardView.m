@@ -10,4 +10,13 @@
 
 @implementation CardView
 
+-(void)customDrawUI{
+    self.layer.cornerRadius=5.0;
+    self.backgroundColor = self.primaryColor;
+}
+
+-(void)setData{
+    self.txtLabel.text = @"some text";
+}
+
 @end
